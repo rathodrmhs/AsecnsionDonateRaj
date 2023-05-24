@@ -206,25 +206,21 @@ public class AscensionTest {
 //        System.out.println("1st title" + title);
         driver.findElement(By.xpath("//div[@class='icon']")).click();
 //        Thread.sleep(2000);
+ 
+        driver.findElement(By.xpath("//input[@class='location-type-ahead-input is-valid' and @placeholder='City and State, or ZIP Code']")).click();
+        driver.findElement(By.xpath("//input[@class='location-type-ahead-input is-valid' and @placeholder='City and State, or ZIP Code']")).clear();
+        driver.findElement(By.xpath("//input[@class='location-type-ahead-input is-valid' and @placeholder='City and State, or ZIP Code']")).sendKeys(Keys.chord(Keys.COMMAND, "a"));
+        driver.findElement(By.xpath("//input[@class='location-type-ahead-input is-valid' and @placeholder='City and State, or ZIP Code']")).sendKeys(Keys.DELETE);
+        driver.findElement(By.xpath("//input[@class='location-type-ahead-input is-valid' and @placeholder='City and State, or ZIP Code']")).sendKeys("Carol Stream, IL");
+        driver.findElement(By.xpath("//input[@class='location-type-ahead-input is-valid' and @placeholder='City and State, or ZIP Code']")).sendKeys(Keys.ENTER);
+        driver.findElement(By.xpath("//input[@type='submit' and @class='fal-search-button']")).click();
 
-        driver.findElement(By.xpath("//input[@class='location-input js-search-query']")).click();
-        driver.findElement(By.xpath("//input[@class='location-input js-search-query']")).clear();
-//Thread.sleep(2000);
-        driver.findElement(By.xpath("//input[@class='location-input js-search-query']")).sendKeys("Carol Stream, IL 60188");
-//         Thread.sleep(2000);
-        driver.findElement(By.xpath("//button[@class='js-search-btn button-primary']")).click();
-//WebElement SubmitButton=(new WebDriverWait(driver,10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@class='js-search-btn button-primary']")));
-//         driver.findElement(By.xpath("//button[@class='js-search-btn button-primary']")).click();
-        driver.findElement(By.xpath("//a[contains(text(),'Physical Therapy')]")).click();
+        driver.findElement(By.linkText("Ascension Medical Group Illinois - Heart & Vascular Care Bartlett")).click();
 
-//driver.findElement(By.xpath("//*[@id=\"locationsSearchContainer\"]/div/div[2]/div[1]/div/div/div/div/div[3]/div/input")).click();
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,1500)");
-
-//WebElement SubmitButton=(new WebDriverWait(driver,10)).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'Ascension Medical Group Illinois - Heart & Vascula')]")));
-        driver.findElement(By.xpath("//a[contains(text(),'Ascension Medical Group Illinois - Heart & Vascula')]")).click();
-        String title1 = driver.getTitle();
-        System.out.println(title1);
+        System.out.println("");
+        System.out.println("✅ Find a Location is Tested! ✅");
+        System.out.println("");
+  
     }
 
     @Test

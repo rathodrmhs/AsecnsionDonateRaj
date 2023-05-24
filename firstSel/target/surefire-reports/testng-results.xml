@@ -1,29 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-24T16:04:33Z" name="firstSeleniumTests.newDonateTestCases" finished-at="2023-05-24T16:05:04Z" duration-ms="30969">
+  <suite started-at="2023-05-24T17:10:48Z" name="firstSeleniumTests.newDonateTestCases" finished-at="2023-05-24T17:13:11Z" duration-ms="143283">
     <groups>
     </groups>
-    <test started-at="2023-05-24T16:04:33Z" name="Command line test" finished-at="2023-05-24T16:05:04Z" duration-ms="30969">
+    <test started-at="2023-05-24T17:10:48Z" name="Command line test" finished-at="2023-05-24T17:13:11Z" duration-ms="143283">
       <class name="firstSeleniumTests.newDonateTestCases">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:04:33Z" name="setUpClass" finished-at="2023-05-24T11:04:33Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:10:48Z" name="setUpClass" finished-at="2023-05-24T12:10:48Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:04:33Z" name="setUpMethod" finished-at="2023-05-24T11:04:35Z" duration-ms="1731" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:10:48Z" name="setUpMethod" finished-at="2023-05-24T12:11:02Z" duration-ms="14044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="dontepageTest()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:04:35Z" name="dontepageTest" finished-at="2023-05-24T11:05:04Z" duration-ms="28975" status="PASS">
+        <test-method signature="BillPay()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:02Z" name="BillPay" finished-at="2023-05-24T12:11:10Z" duration-ms="8609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dontepageTest -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:05:04Z" name="tearDownMethod" finished-at="2023-05-24T11:05:04Z" duration-ms="239" status="PASS">
+        </test-method> <!-- BillPay -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:10Z" name="tearDownMethod" finished-at="2023-05-24T12:11:10Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:05:04Z" name="tearDownClass" finished-at="2023-05-24T11:05:04Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:10Z" name="setUpMethod" finished-at="2023-05-24T12:11:23Z" duration-ms="12691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="Location()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:23Z" name="Location" finished-at="2023-05-24T12:11:41Z" duration-ms="18238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Location -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:41Z" name="tearDownMethod" finished-at="2023-05-24T12:11:42Z" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:42Z" name="setUpMethod" finished-at="2023-05-24T12:11:49Z" duration-ms="7378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="PriceTransparencyTest()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:49Z" name="PriceTransparencyTest" finished-at="2023-05-24T12:11:58Z" duration-ms="9353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceTransparencyTest -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:58Z" name="tearDownMethod" finished-at="2023-05-24T12:11:59Z" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:11:59Z" name="setUpMethod" finished-at="2023-05-24T12:12:05Z" duration-ms="6026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="dontepageTest()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:12:05Z" name="dontepageTest" finished-at="2023-05-24T12:12:18Z" duration-ms="13347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dontepageTest -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:12:18Z" name="tearDownMethod" finished-at="2023-05-24T12:12:18Z" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:12:18Z" name="setUpMethod" finished-at="2023-05-24T12:12:23Z" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCareesrTestCase()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:12:23Z" name="testCareesrTestCase" finished-at="2023-05-24T12:12:44Z" duration-ms="20821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCareesrTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:12:44Z" name="tearDownMethod" finished-at="2023-05-24T12:12:45Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:12:45Z" name="setUpMethod" finished-at="2023-05-24T12:12:51Z" duration-ms="6422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testSpecialtyCare()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:12:51Z" name="testSpecialtyCare" finished-at="2023-05-24T12:13:11Z" duration-ms="19820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialtyCare -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:13:11Z" name="tearDownMethod" finished-at="2023-05-24T12:13:11Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:firstSeleniumTests.newDonateTestCases@26a7b76d]" started-at="2023-05-24T12:13:11Z" name="tearDownClass" finished-at="2023-05-24T12:13:11Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

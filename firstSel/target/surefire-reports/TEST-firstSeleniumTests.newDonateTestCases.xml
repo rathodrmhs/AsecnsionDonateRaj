@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="firstSeleniumTests.newDonateTestCases" time="28.979" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="firstSeleniumTests.newDonateTestCases" time="90.193" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
@@ -61,5 +61,10 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="firstSeleniumTests.newDonateTestCases" name="dontepageTest" time="28.979"/>
+  <testcase classname="firstSeleniumTests.newDonateTestCases" name="BillPay" time="8.614"/>
+  <testcase classname="firstSeleniumTests.newDonateTestCases" name="Location" time="18.235"/>
+  <testcase classname="firstSeleniumTests.newDonateTestCases" name="PriceTransparencyTest" time="9.355"/>
+  <testcase classname="firstSeleniumTests.newDonateTestCases" name="dontepageTest" time="13.347"/>
+  <testcase classname="firstSeleniumTests.newDonateTestCases" name="testCareesrTestCase" time="20.821"/>
+  <testcase classname="firstSeleniumTests.newDonateTestCases" name="testSpecialtyCare" time="19.821"/>
 </testsuite>

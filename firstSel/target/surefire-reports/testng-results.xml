@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-24T16:04:33Z" name="firstSeleniumTests.newDonateTestCases" finished-at="2023-05-24T16:05:04Z" duration-ms="30969">
+    <groups>
+    </groups>
+    <test started-at="2023-05-24T16:04:33Z" name="Command line test" finished-at="2023-05-24T16:05:04Z" duration-ms="30969">
+      <class name="firstSeleniumTests.newDonateTestCases">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:04:33Z" name="setUpClass" finished-at="2023-05-24T11:04:33Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:04:33Z" name="setUpMethod" finished-at="2023-05-24T11:04:35Z" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="dontepageTest()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:04:35Z" name="dontepageTest" finished-at="2023-05-24T11:05:04Z" duration-ms="28975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dontepageTest -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:05:04Z" name="tearDownMethod" finished-at="2023-05-24T11:05:04Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:firstSeleniumTests.newDonateTestCases@6b9651f3]" started-at="2023-05-24T11:05:04Z" name="tearDownClass" finished-at="2023-05-24T11:05:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- firstSeleniumTests.newDonateTestCases -->
+    </test> <!-- Command line test -->
+  </suite> <!-- firstSeleniumTests.newDonateTestCases -->
+</testng-results>

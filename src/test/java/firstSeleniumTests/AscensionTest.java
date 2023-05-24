@@ -21,11 +21,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class newDonateTestCases {
+public class AscensionTest {
 
     private WebDriver driver;
 
-    public newDonateTestCases() {
+    public AscensionTest() {
     }
 
     @BeforeClass
@@ -40,12 +40,12 @@ public class newDonateTestCases {
     public void setUpMethod() throws Exception {
 
         System.setProperty("webdriver.chrome.driver", "C:\\data\\chromedriver.exe");
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--headless");
-//        options.addArguments("--disable-gpu");
-//        options.addArguments("--window-size=1400,800");
-//        driver = new ChromeDriver(options);
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--window-size=1400,800");
+        driver = new ChromeDriver(options);
+       // driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         //Going to Ascensions Main HomePage
